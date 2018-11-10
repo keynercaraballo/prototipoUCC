@@ -9,6 +9,22 @@ const routes: Routes = [
         "component": ThemeComponent,
         "canActivate": [AuthGuard],
         "children": [
+            // USUARIO
+            {
+                "path": "usuario\/mi-perfil",
+                "loadChildren": ".\/pages\/default\/usuario\/mi-perfil\/mi-perfil.module#MiPerfilModule"
+            },
+            
+            // ADMINISTRADOR
+            // INFORMES
+            // INVENTARIO
+
+
+
+            {
+                "path": "angular\/agenda",
+                "loadChildren": ".\/pages\/default\/administrador\/agenda\/agenda.module#AgendaModule"
+            },
             {
                 "path": "angular\/ng-bootstrap",
                 "loadChildren": ".\/pages\/default\/angular\/ng-bootstrap\/ng-bootstrap.module#NgBootstrapModule"
