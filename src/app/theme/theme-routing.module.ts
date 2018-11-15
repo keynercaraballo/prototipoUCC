@@ -11,20 +11,46 @@ const routes: Routes = [
         "children": [
             // USUARIO
             {
-                "path": "usuario\/mi-perfil",
-                "loadChildren": ".\/pages\/default\/usuario\/mi-perfil\/mi-perfil.module#MiPerfilModule"
+                "path": `usuario/mi-perfil`,
+                "loadChildren": `./pages/default/usuario/mi-perfil/mi-perfil.module#MiPerfilModule`
+            },
+
+            // ADMINISTRADOR
+            {
+                "path": `administrador/archivo-plano`,
+                "loadChildren": `./pages/default/administrador/archivo-plano/archivo-plano.module#ArchivoPlanoModule`
+            },
+            {
+                "path": `administrador/agenda`,
+                "loadChildren": `./pages/default/administrador/agenda/agenda.module#AgendaModule`
+            },
+            {
+                "path": `administrador/hv-salas`,
+                "loadChildren": `./pages/default/administrador/hv-salas/hv-salas.module#HVSalasModule`
             },
             
-            // ADMINISTRADOR
             // INFORMES
-            // INVENTARIO
-
-
-
             {
-                "path": "angular\/agenda",
-                "loadChildren": ".\/pages\/default\/administrador\/agenda\/agenda.module#AgendaModule"
+                "path": `informes/uso-docente`,
+                "loadChildren": `./pages/default/informes/uso-docente/uso-docente.module#UsoDocenteModule`
             },
+            {
+                "path": `informes/uso-estudiante`,
+                "loadChildren": `./pages/default/informes/uso-estudiante/uso-estudiante.module#UsoEstudianteModule`
+            },
+            {
+                "path": `informes/bitacora`,
+                "loadChildren": `./pages/default/informes/bitacora/bitacora.module#BitacoraModule`
+            },
+
+            // INVENTARIO
+            {
+                "path": `inventario/equipos`,
+                "loadChildren": `./pages/default/inventario/equipos/equipos.module#EquiposModule`
+            },
+
+
+            
             {
                 "path": "angular\/ng-bootstrap",
                 "loadChildren": ".\/pages\/default\/angular\/ng-bootstrap\/ng-bootstrap.module#NgBootstrapModule"
