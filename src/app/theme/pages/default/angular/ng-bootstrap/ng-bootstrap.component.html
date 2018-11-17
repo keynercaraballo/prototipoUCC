@@ -3,26 +3,14 @@
 	<div class="d-flex align-items-center">
 		<div class="mr-auto">
 			<h3 class="m-subheader__title">
-				NG Bootstrap
+				SALAS COMPUTO UCC
 			</h3>
 		</div>
 	</div>
 </div>
 <!-- END: Subheader -->
 <div class="m-content">
-	<div class="alert alert-brand m-alert m-alert--icon m-alert--air m-alert--square m--margin-bottom-30" role="alert">
-		<div class="m-alert__icon">
-			<i class="flaticon-exclamation-1"></i>
-		</div>
-		<div class="m-alert__text">
-			<b>ng-bootstrap</b> is a Bootstrap 4 components, powered by Angular. Here are some components from ng-bootstrap.
-			For more info please check out <a class="m-link m-link--warning m--font-bold" href="https://ng-bootstrap.github.io/#/home/" target="_blank">the official documentation.</a>
-		</div>
-		<div class="m-alert__close">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-			</button>
-		</div>
-	</div>
+	
 	<div class="row">
 		<div class="col-lg-6">
 			<!--begin::Portlet-->
@@ -40,7 +28,7 @@
 					<!--begin::Section-->
 					<div class="m-section__content">
 						<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-							<ngb-panel title="Simple">
+							<ngb-panel title="Sala-01">
 								<ng-template ngbPanelContent>
 									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
 									officia
@@ -73,7 +61,7 @@
 									labore sustainable VHS.
 								</ng-template>
 							</ngb-panel>
-							<ngb-panel title="Disabled" [disabled]="true">
+							<ngb-panel title="Disabled" [disabled]="true"> 
 								<ng-template ngbPanelContent>
 									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
 									officia
@@ -526,48 +514,8 @@
 			</div>
 			<!--end::Portlet-->
 			<!--begin::Portlet-->
-			<div class="m-portlet">
-				<div class="m-portlet__head">
-					<div class="m-portlet__head-caption">
-						<div class="m-portlet__head-title">
-							<h3 class="m-portlet__head-text">
-								Tooltips
-							</h3>
-						</div>
-					</div>
-				</div>
-				<div class="m-portlet__body">
-					<!--begin::Section-->
-					<div class="m-section">
-						<div class="m-section__content">
-							<button type="button" class="btn btn-secondary" placement="top" ngbTooltip="Tooltip on top">
-								Tooltip on top
-							</button>
-							<button type="button" class="btn btn-secondary" placement="right" ngbTooltip="Tooltip on right">
-								Tooltip on right
-							</button>
-							<button type="button" class="btn btn-secondary" placement="bottom" ngbTooltip="Tooltip on bottom">
-								Tooltip on bottom
-							</button>
-							<button type="button" class="btn btn-secondary" placement="left" ngbTooltip="Tooltip on left">
-								Tooltip on left
-							</button>
-						</div>
-						<div class="m-section__sub">
-							Tooltips can contain any arbitrary HTML, Angular bindings and even directives!
-							Simply enclose desired content in a <code>&lt;ng-template&gt;</code> element.
-						</div>
-						<div class="m-section__content">
-							<ng-template #tipContent>Hello, <b>{{name}}</b>!</ng-template>
-							<button type="button" class="btn btn-secondary" [ngbTooltip]="tipContent">
-								I've got markup and bindings in my tooltip!
-							</button>
-						</div>
-					</div>
-					<!--end::Section-->
-				</div>
-			</div>
+			
 			<!--end::Portlet-->
 		</div>
 	</div>
-</div>
+</div><!--FINAL DEL CONTENEDOR MAIN -->
