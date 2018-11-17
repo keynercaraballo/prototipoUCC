@@ -28,7 +28,7 @@ const routes: Routes = [
                 "path": `administrador/hv-salas`,
                 "loadChildren": `./pages/default/administrador/hv-salas/hv-salas.module#HVSalasModule`
             },
-            
+
             // INFORMES
             {
                 "path": `informes/uso-docente`,
@@ -50,7 +50,7 @@ const routes: Routes = [
             },
 
 
-            
+
             {
                 "path": "angular\/ng-bootstrap",
                 "loadChildren": ".\/pages\/default\/angular\/ng-bootstrap\/ng-bootstrap.module#NgBootstrapModule"
